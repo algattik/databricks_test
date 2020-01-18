@@ -60,7 +60,7 @@ See samples below for more examples.
 ## Supported features
 
 * Spark context injected into Databricks notebooks: `spark`, `table`
-* PySpark including all Spark features including reading and writing to disk, UDFs and Pandas UDFs
+* PySpark with all Spark features including reading and writing to disk, UDFs and Pandas UDFs
 * Databricks Utilities (`dbutils`, `display`) with user-configurable mocks
 * Mocking connectors such as Azure Storage, S3 and SQL Data Warehouse
 
