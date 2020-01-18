@@ -68,7 +68,7 @@ See samples below for more examples.
 
 * Notebook formats other than `.py` (`.ipynb`, `.dbc`) are not supported
 * Non-python cells such as `%scala` and `%sql` (those cells are skipped, as they are stored in `.py` notebooks as comments)
-* Writing to /dbfs mount
+* Writing directly to `/dbfs` mount on local filesystem
 * Databricks extensions to Spark such as `spark.read.format("binaryFile")`
 
 ## Sample test
